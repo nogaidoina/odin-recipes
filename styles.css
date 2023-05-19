@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(46, 46, 46);
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  margin: 35px;
+  display: flex;
+  margin: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  background-color: rgb(249, 188, 188);
+  width: 700px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.home_button {
+  display: inherit;
+  align-self: start;
+  justify-content: center;
+  margin-right: 40px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30%;
+  font-size: 32px;
+}
+
+.title {
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: hsl(18, 98%, 53%);
+  text-shadow: 0 0 5px rgb(181, 240, 238);
+}
+
+.food_title {
+  color: hsl(18, 98%, 53%);
+  text-shadow: 0 0 5px rgb(181, 240, 238);
+  text-align: center;
+}
+
+.food {
+  display: block;
+  margin: auto;
+  border-radius: 30%;
+  box-shadow: 0px 0px 10px rgba(85, 75, 116, 0.787);
+}
+
+.img_main,
+.recipes_lis,
+.ingredients,
+.steps {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(85, 75, 116, 0.787);
+}
+
+.recipes_lis,
+.ingredients {
+  background-color: rgb(180, 243, 255);
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.steps {
+  background-color: rgb(180, 243, 255);
+  margin-top: 50px;
+  padding: 30px 30px 30px 80px;
+  text-align: left;
+  list-style-type: decimal;
+}
+
+.recipe {
+  background-color: rgb(249, 188, 188);
+  width: 700px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.home_button:link,
+.home_button:visited {
+  color: rgb(227, 45, 105);
+  text-decoration: none;
+  background-color: rgb(206, 170, 193);
+}
+
+.title_list:link,
+.title_list:visited {
+  color: rgb(75, 76, 78);
+  text-decoration: none;
+}
+
+.title_list:hover,
+.title_list:active {
+  color: rgb(243, 99, 43);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 120%;
+}
